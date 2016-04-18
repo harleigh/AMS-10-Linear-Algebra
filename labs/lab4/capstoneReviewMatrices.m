@@ -25,12 +25,13 @@ E = zeros(numRows, numCols);
 
 %scalar value
 k=3;
+m = 5;
 
 %build a column vector of dimension numRows by 1
 x = k*ones(numRows,1);
 
 %build a row vector of numCols by 1
-y = ones(1,numCols);
+y = m*ones(1,numCols);
 
 %Using a for loop apply the row vec x to the rows of A using various operations,
 %storing the results in different matrices so they may be viewed later
